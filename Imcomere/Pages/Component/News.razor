@@ -1,0 +1,84 @@
+﻿@inject HttpClient Http
+<div class="container mt-5">
+    <h1>Tin tức & sự kiện</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card-post-news">
+                <img src="./assets/img/tintuc/cuoi_nam_biscafun.jpg" class="card-img-top" alt="rộn ràng đón tết">
+                <div class="card-body">
+                    <h5 class="card-title">CUỐI NĂM RỘN RÀNG - NGẬP TRÀN YÊU THƯƠNG</h5>
+                    <p class="card-text">Không khí tại Biscafun đang nóng hơn bao giờ hết với những món quà bánh kẹo ngon tuyệt và hàng ngàn củ sắn miễn phí trao tặng tất cả mọi người</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="advert-video">
+                <iframe width="560" height="415" src="https://www.youtube.com/embed/OTKu5Lkfogc?si=zqveGUIwwrexp7td" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+@if (newsGroups != null)
+    {
+        Console.WriteLine("newsGroups != null");
+
+        <div id="postNews" class="row">
+            <div class="col-sm-12">
+                <div id="cardPostNews" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        @for (var row = 0; row < groupCount; row++)
+                        {
+                            <div class="carousel-item @(row == 0 ? "active" : "")">
+                                    <div class="row">
+                                        @for (var col = 0; col < 4; col++)
+                                        {
+                                            var news = newsGroups[row, col];
+                                            if (news != null)
+                                            {
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div id="@news.id" class="card" style="width: 18rem;">
+                                                        <a href="@news.link" target="_blank"><img src="@news.newsImage" class="card-img-top" alt="..."></a>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">@news.title</h5>
+                                                            <p class="card-text">@news.description</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                        }
+                    </div>
+                    <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#cardPostNews" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control carousel-control-next" type="button" data-bs-target="#cardPostNews" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private News[]? news;
+    private News?[,]? newsGroups;
+    private int groupCount;
+
+    protected override async Task OnInitializedAsync()
+    {
+        news = await Http.GetFromJsonAsync<News[]>("data/news.json");
+        var newsCount = news.Length;
+        groupCount = newsCount % 4 == 0 ? newsCount / 4 : newsCount / 4 + 1;
+        newsGroups = new News[groupCount, 4];
+        for (var i = 0; i < newsCount; i++)
+        {
+            newsGroups[i / 4, i % 4] = news[i];
+        }
+        
+    }
+}

@@ -1,0 +1,24 @@
+﻿.banner {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 50px
+}
+
+button.btn {
+    width: 1160px;
+    background-color: var(--bs-primary-red);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    height: 50px;
+}
+
+button.btn:hover {
+    background-color: var(--bs-primary);
+}
+
+button.btn a {
+        font-size: 20px;
+        color: #fff;
+    }

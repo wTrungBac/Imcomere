@@ -1,0 +1,87 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Imcomere
+build_property.RootNamespace = Imcomere
+build_property.ProjectDir = D:\Inten\Imcomere\Imcomere\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Inten\Imcomere\Imcomere
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Inten/Imcomere/Imcomere/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Inten/Imcomere/Imcomere/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Inten/Imcomere/Imcomere/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qugjdb0cfm
+
+[D:/Inten/Imcomere/Imcomere/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-82oayh15ex
+
+[D:/Inten/Imcomere/Imcomere/Pages/CartTable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-exj4narkgi
+
+[D:/Inten/Imcomere/Imcomere/Pages/Component/Banner.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50XEJhbm5lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-csur30thg5
+
+[D:/Inten/Imcomere/Imcomere/Pages/Component/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50XENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-om9qkb9bw0
+
+[D:/Inten/Imcomere/Imcomere/Pages/Component/News.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50XE5ld3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q90qmrq6g2
+
+[D:/Inten/Imcomere/Imcomere/Pages/Component/Slider.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50XFNsaWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-69c9fzwnpi
+
+[D:/Inten/Imcomere/Imcomere/Pages/ConfirmEmail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybUVtYWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ptq0cbq43k
+
+[D:/Inten/Imcomere/Imcomere/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-bfjjfj388r
+
+[D:/Inten/Imcomere/Imcomere/Pages/Order.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-n0b02e8sv6
+
+[D:/Inten/Imcomere/Imcomere/Pages/ProductCart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-otjd68671z
+
+[D:/Inten/Imcomere/Imcomere/Pages/ProductDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5wjsf1eo7z
+
+[D:/Inten/Imcomere/Imcomere/Pages/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9owbtuoa4t
+
+[D:/Inten/Imcomere/Imcomere/Pages/ProductView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFZpZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kq5cs0rzzi

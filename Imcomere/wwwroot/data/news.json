@@ -1,0 +1,86 @@
+[
+  {
+    "id": "tet2023",
+    "link": "https://biscafun.com.vn/cuoi-nam-ron-rang-ngap-tran-yeu-thuong",
+    "title": "CUỐI NĂM RỘN RÀNG - NGẬP TRÀN YÊU THƯƠNG!",
+    "newsImage": "./assets/img/tintuc/thumbnail/cuoi_nam_ron_rang.jpg",
+    "description": "Không khí tại Biscafun đang nóng hơn bao giờ hết với những món quà bánh kẹo ngon tuyệt và hàng ngàn củ sắn miễn phí trao tặng tất cả mọi người"
+  },
+  {
+    "id": "chluongcao2024",
+    "link": "https://biscafun.com.vn/biscafun-le-cong-bo-hang-viet-nam-chat-luong-cao-2024",
+    "title": "BISCAFUN - LỄ CÔNG BỐ HÀNG VIỆT NAM CHẤT LƯỢNG CAO 2024",
+    "newsImage": "./assets/img/tintuc/thumbnail/chat_luong_cao_2024.png",
+    "description": "Tối ngày 14/3, tại hội trường Thống Nhất, TP.HCM đã diễn ra Lễ công bố Hàng Việt Nam Chất lượng cao 2024 do Người tiêu dùng bình chọn. Chương trình được phát trực tiếp trên các kênh truyền thông của hội DN HVNCLC."
+  },
+  {
+    "id": "dmxk",
+    "link": "https://biscafun.com.vn/banh-keo-biscafun-day-manh-xuat-khau",
+    "title": "BÁNH KẸO BISCAFUN ĐẨY MẠNH XUẤT KHẨU",
+    "newsImage": "./assets/img/tintuc/thumbnail/day_manh_xuat_khau.jpg",
+    "description": "Nỗ lực từng ngày, chắt chiu từng cơ hội, Nhà máy Bánh kẹo Biscafun đã và đang đưa các sản phẩm Bánh kẹo chinh phục nhiều thị trường khó tính trên thế giới."
+  },
+  {
+    "id": "dhchse",
+    "link": "https://biscafun.com.vn/san-pham-qns-biscafun-vinasoy-thach-bich-dong-hanh-chia-se-cung-can-bo-chien-si-quan-dao-truong-sa",
+    "title": "SẢN PHẨM QNS (BISCAFUN - VINASOY - THẠCH BÍCH) ĐỒNG HÀNH, CHIA SẺ",
+    "newsImage": "./assets/img/tintuc/thumbnail/dong_hanh_chia_se.jpg",
+    "description": "Vào những ngày giữa tháng 05/2023, cùng với Đoàn đại biểu Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Quảng Ngãi, Công ty Cổ phần Đường Quảng Ngãi (QNS) đã đến thăm và trao quà cho Cán bộ Chiến sĩ Nhà giàn DK 1/9 thuộc quần đảo Trường Sa..."
+  },
+  {
+    "id": "engchall",
+    "link": "https://biscafun.com.vn/BISCAFUN-VA-ENGLISH-CHALLENGE-06-NAM-DONG-HANH-LAN-TOA-NIEM-DAM-ME-TIENG-ANH-DEN-CAC-BAN-NHO",
+    "title": "BISCAFUN VÀ ENGLISH CHALLENGE - 60 NĂM ĐỒNG HÀNH, LAN TỎA NIỀM ĐAM MÊ",
+    "newsImage": "./assets/img/tintuc/thumbnail/english_challenge.jpg",
+    "description": "Năm 2023, Biscafun tiếp tục đồng hành cùng chương trình sân chơi Thử thách tiếng Anh “English Challenge” của Đài Truyền hình Nghệ An, đây là năm thứ 6 Biscafun là Nhà tài trợ chính của Chương trình với mong muốn lan tỏa niềm đam mê học Tiếng Anh đến các bạn học sinh tiểu học tại Nghệ An & Hà Tĩnh."
+  },
+  {
+    "id": "hchtrienlam",
+    "link": "https://biscafun.com.vn/biscafun-tham-du-trien-lam-quoc-te-vietnam-foodexpo-2023",
+    "title": "BISCAFUN THAM DỰ TRIỂN LÃM QUỐC TẾ FOODEXPO 2023",
+    "newsImage": "./assets/img/tintuc/thumbnail/hoi_cho_trien_lam.jpg",
+    "description": "Sáng 22/11/2023, Triển Lãm Quốc Tế Công nghiệp thực phẩm Việt Nam-Vietnam FoodExpo 2023 đã khai mạc"
+  },
+  {
+    "id": "hnghlaodong",
+    "link": "https://biscafun.com.vn/nha-may-banh-keo-biscafun-to-chuc-hoi-nghi-nguoi-lao-dong-nam-2024",
+    "title": "NHÀ MÁY BÁNH KẸO BISCAFUN TỔ CHỨC HỘI NGHỊ NGƯỜI LAO ĐỘNG NĂM 2024",
+    "newsImage": "./assets/img/tintuc/thumbnail/hoi_nghi_lao_dong.jpg",
+    "description": "Ngày 18/01/2024, Nhà máy Bánh kẹo Biscafun đã tổ chức thành công Hội nghị Người lao động lần thứ XVII năm 2024."
+  },
+  {
+    "id": "knoivuoncao",
+    "link": "https://biscafun.com.vn/biscafun-30-nam-ket-noi-vuon-cao",
+    "title": "BISCAFUN - 30 NĂM KẾT NỐI VƯƠN CAO",
+    "newsImage": "./assets/img/tintuc/thumbnail/ket_noi_vuon_cao.jpg",
+    "description": "Chiều ngày 08/7/2024 tại Trung tâm hội nghị Diamond Palace thực sự là một dịp đặc biệt và đáng nhớ khi Biscafun tổ chức lễ kỷ niệm 30 năm thành lập với chủ đề Kết nối vươn cao."
+  },
+  {
+    "id": "lethghieu",
+    "link": "https://biscafun.com.vn/chao-mung-ngay-thuong-hieu-viet-nam-20-4-va-tuan-le-thuong-hieu-quoc-gia-nam-2023",
+    "title": "CHÀO MỪNG NGÀY LỄ THƯƠNG HIỆU 20/4 VÀ TUẦN LỄ THƯƠNG HIỆU QUỐC GIA",
+    "newsImage": "./assets/img/tintuc/thumbnail/le_thuong-hieu.png",
+    "description": "Chương trình Thương hiệu quốc gia Việt Nam được Thủ tướng Chính phủ phê duyệt tại Quyết định số 253/2003/QĐ-TTg ngày 25 tháng 11 năm 2003. Đây là chương trình xúc tiến thương mại đặc thù, dài hạn của Chính phủ nhằm xây dựng,...."
+  },
+  {
+    "id": "phphnuocngoai",
+    "link": "https://biscafun.com.vn/banh-keo-biscafun-dua-hang-hoa-vao-kenh-phan-phoi-nuoc-ngoai",
+    "title": "BÁNH KẸO BISCAFUN ĐƯA HÀNG HÓA VÀO KÊNH PHÂN PHỐI NƯỚC NGOÀI",
+    "newsImage": "./assets/img/tintuc/thumbnail/phan_phoi_nuoc_ngoai.jpg",
+    "description": "Hàng hóa do Nhà máy Bánh kẹo Biscafun sản xuất đã và đang được đưa vào các siêu thị lớn của Nhật Bản. Điều này không chỉ mang lại lợi ích về kinh tế, mà còn giúp Biscafun quảng bá, nâng tầm vị thế sản phẩm trên thị trường quốc tế."
+  },
+  {
+    "id": "quctephunu",
+    "link": "https://biscafun.com.vn/biscafun-chuc-mung-ngay-quoc-te-phu-nu-8-3",
+    "title": "BISCAFUN CHÚC MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8/3",
+    "newsImage": "./assets/img/tintuc/thumbnail/quoc_te_phu_nu.jpg",
+    "description": "Ngày Quốc tế Phụ nữ không chỉ là ngày tôn vinh phái đẹp mà còn là dịp để bày tỏ tình cảm và sự quan tâm đến người phụ nữ mà ta yêu thương."
+  },
+  {
+    "id": "thquandulich",
+    "link": "https://biscafun.com.vn/biscafun-to-chuc-chuyen-tham-quan-du-lich-dac-biet-cho-nhan-vien",
+    "title": "BISCAFUN TỔ CHÚC CHUYẾN THAM QUAN DU LỊCH ĐẶC BIỆT CHO NHÂN VIÊN",
+    "newsImage": "./assets/img/tintuc/thumbnail/tham_quan_du_lich.jpg",
+    "description": "Với mục tiêu chăm sóc đến đời sống tinh thần cho nhân viên trong Nhà máy và xây dựng phong trào hoạt động vui chơi, du lịch nghỉ mát sau những ngày làm việc căng thẳng, Nhà máy Bánh kẹo Biscafun đã tổ chức chương trình tham quan du lịch cho toàn thể nhân viên từ ngày 25/3/2024."
+  }
+]

@@ -1,0 +1,33 @@
+input[b-n0b02e8sv6]::-webkit-outer-spin-button,
+input[b-n0b02e8sv6]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card .card-body form .text-center .btn[b-n0b02e8sv6]{
+    background-color: var(--bs-primary);
+    border-radius: 999px;
+    border: none;
+}
+
+.card[b-n0b02e8sv6] {
+    border-radius: 15px;
+}
+
+.card .card-body[b-n0b02e8sv6] {
+    border: 1px solid var(--bs-primary);
+    border-radius: 15px;
+}
+
+.card .card-body form .mb-3 input[b-n0b02e8sv6] {
+    border: 1px solid var(--bs-primary);
+    border-radius: 15px;
+}
+
+.card .card-body form .mb-3 label[b-n0b02e8sv6] {
+    color: var(--bs-primary-dark-red)
+}
+
+.card .card-body form .mb-3 legend[b-n0b02e8sv6] {
+    color: var(--bs-primary);
+}

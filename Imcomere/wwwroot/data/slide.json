@@ -1,0 +1,29 @@
+{
+  "id": "carouselImage",
+  "items": [
+    {
+      "id": "capWalys",
+      "href": "!#",
+      "imageSrc": "./assets/img/banh_kem_xop.png",
+      "title": "Bánh kem xốp Walys",
+      "description": "Là sự hòa quyện của nền bánh giòn xốp với lớp kem tươi thơm ngon bánh xốp giàu protein, nhiều mùi vị hấp dẫn, thích hợp cho những buổi chuyện trò nhâm nhi, kết tình thân ái",
+      "shortDescription": "Là sự hòa quyện của nền bánh giòn xốp với lớp kem tươi thơm ngon"
+    },
+    {
+      "id": "capFica",
+      "href": "!#",
+      "imageSrc": "./assets/img/bong_lan.png",
+      "title": "Bánh bông lan Fica",
+      "description": "Lớp kem sữa béo trắng tinh giữa hai vỏ bánh mịn mềm xốp quyện với sự thơm tho của trứng gà, bánh bông lan giàu vitamin và protein, thích hợp cho những bữa ăn nhẹ cần bổ sung năng lượng giờ giải lao",
+      "shortDescription": "Lớp kem sữa béo trắng tinh giữa hai vỏ bánh mịn mềm xốp quyện với sự thơm tho của trứng gà"
+    },
+    {
+      "id": "capCamely",
+      "href": "!#",
+      "imageSrc": "./assets/img/banh_qui.png",
+      "title": "Bánh quy Camely",
+      "description": "Không chỉ có bánh quy giòn thơm, béo béo và bơ sữa cao cấp bổ sung DHA, vitamin giúp tăng cường sức khỏe não bộ và cơ thể để mọi người trong gia đình thông minh và khỏe vui mỗi ngày",
+      "shortDescription": "Không chỉ có bánh quy giòn thơm, béo béo và bơ sữa cao cấp"
+    }
+  ]
+}

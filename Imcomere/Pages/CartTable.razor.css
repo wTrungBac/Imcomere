@@ -1,0 +1,90 @@
+﻿.page-wrapper {
+    margin: 0 auto;
+}
+
+#cardList {
+    background-color: #eee;
+    max-height: 421px;
+    overflow-y: auto;
+}
+
+#cardList tr {
+    background-color: #fff;
+}
+
+#cardList tr a {
+    color: var(--bs-primary-red);
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#cardList tr td a:hover {
+    color: var(--bs-primary-red);
+    transition: 0.3s;
+}
+
+#cardList th {
+    background-color: var(--bs-primary-red);
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 5px;
+    font-size: 14px;
+}
+
+#cardList td {
+    color: var(--bs-primary);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    align-content: baseline;
+}
+
+#cardList td img {
+    width: auto;
+    height: 60px;
+    border: none;
+}
+
+#cardList td input {
+    width: 45px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid var(--bs-primary);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--bs-primary);
+}
+
+#cardList td .product-price {
+    color: var(--bs-primary-red)
+}
+
+#cardList table tr .soluong {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#cardList table tr .soluong .btn {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: var(--bs-primary);
+    border: none;
+}
+
+#cardList table tr .soluong input {
+    width: 40px;
+    height: 40px;
+}
+
+.button-cart .btn {
+    background-color: var(--bs-primary);
+    border: none
+}
+
+.button-cart .btn:hover {
+    background-color: var(--bs-primary);
+}
+

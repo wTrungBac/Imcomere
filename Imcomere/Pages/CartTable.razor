@@ -1,0 +1,96 @@
+﻿@using Imcomere.Pages.Component
+@inject Cart cart
+@layout MainLayout
+
+
+
+<div id="cardList">
+    <table width="100%" border="0" class="table table-responsive-lg table-bordered border-light m-auto">
+        <thead>
+            <tr>
+                <th width="100" style="text-align: center;">Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th width="15%">Số lượng</th>
+                <th width="15%">Đơn giá</th>
+                <th width="15%">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cartItem in cartItems)
+            {
+                <tr id="@cartItem.product.id">
+                    <td>
+                        <img src="@cartItem.product.detailImage" width="100%" />
+                    </td>
+                    <td>
+                        <a href="@($"/productdetail/{cartItem.product.id}")">@cartItem.product.name</a>
+                    </td>
+                    <td class="soluong">
+                        <button class="btn btn-primary @(cartItem.quantity < 2 ? "disabled" : "")" @onclick="() => onDown(cartItem)">-</button>
+                        <input name value="@cartItem.quantity" type="text" min="1" role="status" @onchange="args => onChangeQuantity(cartItem, Convert.ToInt32(args.Value))" />
+                        <button class="btn btn-primary" @onclick="() => onUp(cartItem)">+</button>
+                    </td>
+                    <td>
+                        <p class="product-price">@($"{cartItem.amount:#,###}")đ</p>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-danger" @onclick="() => onRemove(cartItem)">Xóa</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="button-cart">
+    <a href="@($"/product/All")" class="btn btn-success">Tiếp tục mua hàng</a>
+    <a href="/Order" class="btn btn-success" >Đặt hàng</a>
+</div>
+
+@code {
+    public string? dvt { get; set; } = "HO";
+    public int currentCount = 1;
+    [CascadingParameter] public MainLayout mainLayout { get; set; }
+
+    public void IncrementCount(int increment)
+    {
+        if (currentCount + increment > 0) currentCount += increment;
+    }
+    private List<Cart.CartItem> cartItems = new();
+    protected override async Task OnInitializedAsync()
+    {
+        cartItems = await cart.getCartItems();
+    }
+
+    private async Task onDown(Cart.CartItem cartItem)
+    {
+        await cart.down(cartItem.product);
+        cartItems = await cart.getCartItems();
+        mainLayout.setCartCounter(cartItems.Sum(item => item.quantity));
+
+    }
+
+    private async Task onChangeQuantity(Cart.CartItem cartItem, int quantity)
+    {
+        await cart.changeQuantity(cartItem.product, quantity);
+        cartItems = await cart.getCartItems();
+        mainLayout.setCartCounter(cartItems.Sum(item => item.quantity));
+
+    }
+
+    private async Task onUp(Cart.CartItem cartItem)
+    {
+        await cart.add(cartItem.product);
+        cartItems = await cart.getCartItems();
+        mainLayout.setCartCounter(cartItems.Sum(item => item.quantity));
+
+    }
+
+    private async Task onRemove(Cart.CartItem cartItem)
+    {
+        await cart.remove(cartItem.product);
+        cartItems = await cart.getCartItems();
+        mainLayout.setCartCounter(cartItems.Sum(item => item.quantity));
+
+    }
+
+}

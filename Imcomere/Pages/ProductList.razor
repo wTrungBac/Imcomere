@@ -1,0 +1,50 @@
+﻿@using Imcomere.Pages.Component
+@inject HttpClient Http
+@page "/product/{categoryId}"
+@layout MainLayout
+
+@if (products != null)
+{
+    Console.WriteLine("productGroups != null");
+    <div class="row">
+        <div class="col-auto">
+            <div class="row">
+                <img src="assets/img/product-banner.png" />
+            </div>
+            <div class="row">
+                <div class="cate">
+                    <p>Danh sách sản phẩm</p>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var product in products.Where(product => categoryId == "All" || product.categoryId == categoryId))
+                {
+                    <div class="col-md-4 col-lg-3">
+                        <div id="@product.id" class="card aos-init" style="width: 16rem;" data-aos="fade-left" data-aos-offset="250" data-aos-duration="600">
+                            <a href="@($"/productdetail/{product.id}")"><img src="@product.productImage" class="card-img-top" alt="@product.name"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">@product.name</h5>
+                                <p class="card-text">@product.description</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    Console.WriteLine("productGroups == null");
+}
+
+@code {
+    [Parameter]
+    public required string categoryId { get; set; }
+    public required string category { get; set; }
+    private Product[]? products;
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<Product[]>("data/product.json");
+    }
+}

@@ -1,0 +1,71 @@
+﻿@using Newtonsoft.Json
+@inject HttpClient Http
+@if (menuTop != null)
+{
+    <div class="flex-col hide-for-medium flex-left">
+        <ul class="header-nav header-nav-main nav nav-left nav-line-bottom nav-uppercase">
+
+            @foreach (var left in menuTop.lefts)
+            {
+                <li class="menu-item menu-item-object-page">
+                    <a href="@left.link" aria-current="page"
+                       class="nav-top-link @(left.items.Count > 0 ? "dropdown-toggle": "")"
+                       data-bs-toggle="@(left.items.Count > 0 ? "dropdown": "")"
+                       aria-expanded='false'>@left.name</a>
+                    @if (left.items.Count > 0)
+                    {
+                        <ul class="dropdown-menu">
+                            @foreach (var item in left.items)
+                            {
+                                <li class="menu-item menu-item-object-product_cat menu-item-inner"><a href="@item.link">@item.name</a></li>
+                            }
+                        </ul>
+                    }
+                </li>
+
+            }
+        </ul>
+    </div>
+    <div class="flex-col hide-for-medium flex-right">
+        <ul class="header-nav header-nav-main nav nav-right nav-line-bottom nav-uppercase">
+
+            @foreach (var right in menuTop.rights)
+            {
+                Console.WriteLine(right.name);
+                <li class="menu-item menu-item-object-page">
+                    <a href="@right.link" aria-current="page"
+                       class="nav-top-link @(right.items.Count > 0 ? "dropdown-toggle": "")"
+                       data-bs-toggle="@(right.items.Count > 0 ? "dropdown": "")"
+                       aria-expanded='false'>@right.name</a>
+                    @if (right.items.Count > 0)
+                    {
+                        <ul class="dropdown-menu">
+                            @foreach (var item in right.items)
+                            {
+                                <li class="menu-item menu-item-object-product_cat menu-item-inner"><a href="@item.link">@item.name</a></li>
+                            }
+                        </ul>
+                    }
+                </li>
+            }
+            <li class="menu-item">
+                <a href="/ProductCart" aria-current="page"
+                   class="nav-top-link position-relative">
+                    <i class="bi bi-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        @cartCounter
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+}
+@code {
+    [CascadingParameter] public MainLayout mainLayout { get; set; }
+    [Parameter] public int cartCounter { get; set; }
+    private MenuTop? menuTop { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        menuTop = await Http.GetFromJsonAsync<MenuTop>("data/menu.json?4");
+    }
+}

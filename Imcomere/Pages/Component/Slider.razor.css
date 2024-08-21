@@ -1,0 +1,73 @@
+﻿/*Image Slide*/
+
+.carousel-item .active {
+    display: inline-block;
+}
+
+.carousel-item a img {
+    transition: opacity 0.1s;
+    width: 1200px;
+    height: auto;
+    margin-left: 160px;
+}
+
+a.carousel-control-prev {
+    margin-left: 95px;
+    width: 40px;
+}
+
+a.carousel-control-next {
+    margin-right: 100px;
+    width: 40px;
+}
+
+#carouselImage .carousel-indicators {
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+    #carouselImage .carousel-indicators li {
+        background-color: #817878;
+        margin-bottom: 0;
+    }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 2rem;
+}
+
+.carousel-caption {
+    /*    float: left;*/
+    padding: 12px 0 12px 0;
+    height: 515px;
+}
+
+    .carousel-caption h1, p {
+        color: #000;
+        margin-bottom: 0;
+        text-align: left;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .carousel-caption:hover h1 {
+        opacity: 0.5;
+        transform: translateY(0);
+    }
+
+    .carousel-caption:hover p {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+
+    .carousel-caption p {
+        font-size: 19px;
+        font-weight: 600;
+        background-color: #eee;
+        /*    opacity: 0.3*/
+    }
+
+    .carousel-caption h1 {
+        width: 280px;
+        margin-top: 395px;
+    }

@@ -1,0 +1,853 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\obj\\Debug\\net8.0\\compressed\\2egn1tkens.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Imcomere.styles.css",
+      "PackagePath": "staticwebassets\\Imcomere.styles.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\BISCAFUN Chia sẻ niềm vui.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\BISCAFUN Chia sẻ niềm vui.gif"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\banh_kem_xop.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banh_kem_xop.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\banh_qui.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banh_qui.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\biscafun_banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\biscafun_banner.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\bong_lan.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bong_lan.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\product-banner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product-banner.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\Calty.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Calty.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\Calty_cam.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Calty_cam.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\Calty_dau.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Calty_dau.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\Catly_sua.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Catly_sua.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\banh_qui_cam.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\banh_qui_cam.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\banh_qui_dau.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\banh_qui_dau.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\banh_qui_sua.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\banh_qui_sua.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\banh_xop_Newaly.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\banh_xop_Newaly.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\banh_xop_sau_rieng.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\banh_xop_sau_rieng.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\banh_xop_sua.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\banh_xop_sua.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\banh_xop_vani.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\banh_xop_vani.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\champ_bo_sua.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\champ_bo_sua.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\champ_socola.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\champ_socola.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\choco_vina.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\choco_vina.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Calty.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Calty.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Calty_cam.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Calty_cam.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Calty_dau.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Calty_dau.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Calty_plus.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Calty_plus.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Camely_cam.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Camely_cam.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Camely_dau.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Camely_dau.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Camely_sua.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Camely_sua.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Champ_bo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Champ_bo.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Champ_so.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Champ_so.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Chocovina.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Chocovina.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Hamecy_chanh_muoi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Hamecy_chanh_muoi.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Hamecy_gung.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Hamecy_gung.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Hamecy_me_muoi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Hamecy_me_muoi.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Hamecy_oi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Hamecy_oi.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Melody-DO-PHUC.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Melody-DO-PHUC.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Melody_blue.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Melody_blue.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Melody_vang.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Melody_vang.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Newaly_do.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Newaly_do.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Nice_tra_xanh.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Nice_tra_xanh.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Nice_vani.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Nice_vani.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Tomica.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Tomica.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Walys_saurieng.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Walys_saurieng.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Walys_sua.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Walys_sua.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\Walys_vani.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\Walys_vani.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\hamecy_xi_muoi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\hamecy_xi_muoi.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\keo_zea.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\keo_zea.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\nice_sau_rieng.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\nice_sau_rieng.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\detail\\pie_saurieng.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\detail\\pie_saurieng.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\hamecy_gung.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\hamecy_gung.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\hamecy_oi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\hamecy_oi.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\hamecy_xi_muoi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\hamecy_xi_muoi.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\hamercy_chanh_muoi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\hamercy_chanh_muoi.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\me_muoi_ot.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\me_muoi_ot.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\melody_blue.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\melody_blue.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\melody_do.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\melody_do.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\melody_vang.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\melody_vang.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\nice_saurieng.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\nice_saurieng.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\nice_traxanh.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\nice_traxanh.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\nice_vani.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\nice_vani.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\pie_saurieng.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\pie_saurieng.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\sua_zea.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\sua_zea.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\sanpham\\tomica.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\tomica.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\cuoi_nam_biscafun.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\cuoi_nam_biscafun.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\chat_luong_cao_2024.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\chat_luong_cao_2024.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\cuoi_nam_ron_rang.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\cuoi_nam_ron_rang.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\day_manh_xuat_khau.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\day_manh_xuat_khau.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\dong_hanh_chia_se.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\dong_hanh_chia_se.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\english_challenge.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\english_challenge.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\hoi_cho_trien_lam.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\hoi_cho_trien_lam.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\hoi_nghi_lao_dong.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\hoi_nghi_lao_dong.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\ket_noi_vuon_cao.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\ket_noi_vuon_cao.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\le_thuong-hieu.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\le_thuong-hieu.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\phan_phoi_nuoc_ngoai.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\phan_phoi_nuoc_ngoai.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\quoc_te_phu_nu.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\quoc_te_phu_nu.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\tintuc\\thumbnail\\tham_quan_du_lich.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\thumbnail\\tham_quan_du_lich.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\img\\wait-icon.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\wait-icon.gif"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\cypto\\crypto-js.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\cypto\\crypto-js.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\quill\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.bubble.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\quill\\quill.core.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.core.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\quill\\quill.core.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.core.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\quill\\quill.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\quill\\quill.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\quill\\quill.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.min.js.map"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\vendor\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\remixicon\\remixicon.woff2"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\contact-form-7\\includes\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\contact-form-7\\includes\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\contact-form-7\\includes\\js\\index.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\contact-form-7\\includes\\js\\index.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\contact-form-7\\modules\\recaptcha\\index.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\contact-form-7\\modules\\recaptcha\\index.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\ithemes-security-pro\\pro\\recaptcha\\js\\recaptcha-v2.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\ithemes-security-pro\\pro\\recaptcha\\js\\recaptcha-v2.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\frontend\\cart-fragments.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\frontend\\cart-fragments.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\frontend\\woocommerce.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\frontend\\woocommerce.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\jquery-blockui\\jquery.blockUI.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\jquery-blockui\\jquery.blockUI.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\js-cookie\\js.cookie.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\plugins\\woocommerce\\assets\\js\\js-cookie\\js.cookie.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\themes\\flatsome-child\\style.css",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\themes\\flatsome-child\\style.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\themes\\flatsome\\assets\\css\\flatsome-shop.css",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\themes\\flatsome\\assets\\css\\flatsome-shop.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\themes\\flatsome\\assets\\css\\flatsome.css",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\themes\\flatsome\\assets\\css\\flatsome.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\themes\\flatsome\\assets\\css\\icons\\fl-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\themes\\flatsome\\assets\\css\\icons\\fl-icons.woff2"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\themes\\flatsome\\assets\\js\\flatsome.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\themes\\flatsome\\assets\\js\\flatsome.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\themes\\flatsome\\assets\\js\\woocommerce.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\themes\\flatsome\\assets\\js\\woocommerce.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\themes\\flatsome\\inc\\extensions\\flatsome-live-search\\flatsome-live-search.js",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\themes\\flatsome\\inc\\extensions\\flatsome-live-search\\flatsome-live-search.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\Asset-6-1.png_",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\Asset-6-1.png_"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\Bo-sua-90g-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\Bo-sua-90g-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\Briochemockup-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\Briochemockup-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\ChocoPN-Bag-216g-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\ChocoPN-Bag-216g-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\call-300x300.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\call-300x300.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\choco-PN-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\choco-PN-1-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\hoa-cuc-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\hoa-cuc-4-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\07\\socola-55g-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\07\\socola-55g-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\Choco-PN.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\Choco-PN.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\Otto-2.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\Otto-2.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\PN-LOGO-R2.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\PN-LOGO-R2.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\Phaner-Pie.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\Phaner-Pie.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\Popit.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\Popit.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\SW-490-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\SW-490-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\SW-cha-bong-6-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\SW-cha-bong-6-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\SW-lat-3-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\SW-lat-3-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\banh-mi-tuoi-otto-55g-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\banh-mi-tuoi-otto-55g-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\banh-mi-tuoi-otto-90g-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\banh-mi-tuoi-otto-90g-2-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\09\\cha-bong-82.5g-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\09\\cha-bong-82.5g-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\10\\Best-Sellers.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\10\\Best-Sellers.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\10\\Imported.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\10\\Imported.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\10\\New-Product.png",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\10\\New-Product.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\10\\banhran-1200x600-01-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\10\\banhran-1200x600-01-1.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\10\\huhu-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\10\\huhu-1.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\11\\banh-mi-thit-sot-mayo-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\11\\banh-mi-thit-sot-mayo-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\11\\banh-mi-thit-xot-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\11\\banh-mi-thit-xot-4-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\12\\1_zing_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\12\\1_zing_1.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\12\\IMG_0004.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\12\\IMG_0004.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\12\\PHONG-SU-VE-CONG-TAC-R-D-TAI-PHAM-NGUYEN-TREN-HTV-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\12\\PHONG-SU-VE-CONG-TAC-R-D-TAI-PHAM-NGUYEN-TREN-HTV-1.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\12\\z3942820558305_8f371940a6759b65663959b7cdc31d6b.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\12\\z3942820558305_8f371940a6759b65663959b7cdc31d6b.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2022\\12\\z3942970025960_37b97b890c0e271f51eb09c7d877af6d.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2022\\12\\z3942970025960_37b97b890c0e271f51eb09c7d877af6d.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\02\\Banner-Hoa-Cuc-hi.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\02\\Banner-Hoa-Cuc-hi.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\06\\HOA-CUC-MINI-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\06\\HOA-CUC-MINI-1-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\06\\hoa-cuc-mini-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\06\\hoa-cuc-mini-2-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\Baner-quan-tam-zalo-oa-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\Baner-quan-tam-zalo-oa-01.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\Banner-kejo-01-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\Banner-kejo-01-1.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\Banner-keo-trung-01-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\Banner-keo-trung-01-1.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\PHO-MAI-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\PHO-MAI-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\bauli-moonfils-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\bauli-moonfils-2-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\bia-bai-viet.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\bia-bai-viet.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\bia-choco-PN.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\bia-choco-PN.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\07\\wb-bauli-pho-mai.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\07\\wb-bauli-pho-mai.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\10\\floss-55g-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\10\\floss-55g-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\10\\thit-xot-floss-55g-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\10\\thit-xot-floss-55g-2-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2023\\12\\banner-floss-PN-01-2048x1024.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2023\\12\\banner-floss-PN-01-2048x1024.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\01\\Baner-quan-tam-zalo-oa-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\01\\Baner-quan-tam-zalo-oa-02.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\01\\Banner-hoa-cuc-moi-01-2048x1024.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\01\\Banner-hoa-cuc-moi-01-2048x1024.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\01\\Banner-web_1200x600_050723_BMHC-80g-2048x1024.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\01\\Banner-web_1200x600_050723_BMHC-80g-2048x1024.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\01\\Banner-web_1200x600_050723_Bauli-cheese-2048x1024.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\01\\Banner-web_1200x600_050723_Bauli-cheese-2048x1024.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\03\\0313-_1__2_.gif",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\03\\0313-_1__2_.gif"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\03\\BIA-FLOSS-BOSS-MOI.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\03\\BIA-FLOSS-BOSS-MOI.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\03\\Gioi-thieu-PN-STORE-01-1-2048x1024.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\03\\Gioi-thieu-PN-STORE-01-1-2048x1024.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\03\\keo-popit-figure-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\03\\keo-popit-figure-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\03\\popit-co-figure-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\03\\popit-co-figure-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\06\\bon-cake-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\06\\bon-cake-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\06\\bon-less-sugar-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\06\\bon-less-sugar-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\06\\keo-thien-thach-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\06\\keo-thien-thach-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\06\\thien-thach-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\06\\thien-thach-1-300x300.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\07\\Banner-Bon-khong-duong.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\07\\Banner-Bon-khong-duong.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\07\\Banner-PN-keo-thien-thach.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\07\\Banner-PN-keo-thien-thach.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-content\\uploads\\2024\\07\\sw-tawjgn-82.5g.jpg",
+      "PackagePath": "staticwebassets\\assets\\wp-content\\uploads\\2024\\07\\sw-tawjgn-82.5g.jpg"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-includes\\js\\dist\\vendor\\regenerator-runtime.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-includes\\js\\dist\\vendor\\regenerator-runtime.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-includes\\js\\dist\\vendor\\wp-polyfill.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-includes\\js\\dist\\vendor\\wp-polyfill.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-includes\\js\\hoverIntent.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-includes\\js\\hoverIntent.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-includes\\js\\jquery\\jquery-migrate.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-includes\\js\\jquery\\jquery-migrate.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-includes\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-includes\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\assets\\wp-includes\\js\\wp-emoji-release.min.js",
+      "PackagePath": "staticwebassets\\assets\\wp-includes\\js\\wp-emoji-release.min.js"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\data\\menu.json",
+      "PackagePath": "staticwebassets\\data\\menu.json"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\data\\news.json",
+      "PackagePath": "staticwebassets\\data\\news.json"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\data\\product.json",
+      "PackagePath": "staticwebassets\\data\\product.json"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\data\\slide.json",
+      "PackagePath": "staticwebassets\\data\\slide.json"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\font\\UTM Avo.ttf",
+      "PackagePath": "staticwebassets\\font\\UTM Avo.ttf"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "D:\\Inten\\Imcomere\\Imcomere\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Imcomere.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Imcomere.props",
+      "PackagePath": "build\\Imcomere.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Imcomere.props",
+      "PackagePath": "buildMultiTargeting\\Imcomere.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Imcomere.props",
+      "PackagePath": "buildTransitive\\Imcomere.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,73 @@
+﻿@inject HttpClient Http
+@if (productGroups != null)
+{
+    Console.WriteLine("productGroups != null");
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="cardSlide" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        @for (var row = 0; row < groupCount; row++)
+                        {
+                            <div class="carousel-item @(row == 0? "active" : "")">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        @for (var col = 0; col < 4; col++)
+                                        {
+                                            var product = productGroups[row, col];
+                                            if (product != null)
+                                            {
+                                                <div class="col-sm-12 col-lg-3">
+                                                    <div id="@product.id" class="card" style="width: 15rem;">
+                                                        <a href="@($"/productdetail/{product.id}")"><img src="@product.productImage" class="card-img-top" alt="..."></a>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">@product.name</h5>
+                                                            <p class="card-text">@product.description</p>
+                                                            <a href="@($"/productdetail/{product.id}")" class="btn btn-primary">Xem thêm</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#cardSlide" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control carousel-control-next" type="button" data-bs-target="#cardSlide" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    Console.WriteLine("productGroups == null");
+}
+
+@code {
+    private Product[]? products;
+    private Product?[,]? productGroups;
+    private int groupCount;
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<Product[]>("data/product.json");
+        var productCount = products.Length;
+        groupCount = productCount % 4 == 0 ? productCount / 4 : productCount / 4 + 1;
+        productGroups = new Product[groupCount, 4];
+        for (var i = 0; i < productCount; i++)
+        {
+            productGroups[i / 4, i % 4] = products[i];
+        }
+        
+    }
+}

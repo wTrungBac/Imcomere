@@ -1,0 +1,154 @@
+﻿@using Imcomere.Pages
+@inherits LayoutComponentBase
+@inject Cart cart
+@code{
+    private int cartCounter { get; set; }
+
+    public void setCartCounter(int cartCounter)
+    {
+        this.cartCounter = cartCounter;
+        StateHasChanged();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var cartItems = await cart.getCartItems();
+        setCartCounter(cartItems.Sum(s=>s.quantity));
+    }
+
+}
+<CascadingValue TValue="MainLayout" Value="this">
+
+
+    <div id="wrapper">
+        <header id="header" class="header has-sticky sticky-jump z-99999 z-0 position-static" style="">
+            <div class="header-wrapper">
+                <div id="top-bar" class="header-top hide-for-sticky nav-dark z-0">
+                    <div class="flex-row container">
+                        <div class="flex-col hide-for-medium flex-left">
+                            <ul class="nav nav-left medium-nav-center nav-small nav-divided">
+                                <li class="html custom html_topbar_left">
+                                    <div class="follow-icon-top">
+                                        <a href="!#">
+                                            <img src="http://phamnguyenfoods.com/wp-content/uploads/2022/07/Asset-6-1.png">
+                                        </a>
+                                        <a class="icon-i d-inline-block" href="https://www.facebook.com/trungbac.nguyen.98/?locale=vi_VN">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                        <a class="icon-i d-inline-block" href="tel:0376488142">
+                                            <i class="bi bi-telephone-fill"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="flex-col hide-for-medium flex-center">
+                            <ul class="nav nav-center nav-small  nav-divided">
+                            </ul>
+                        </div>
+
+                        <div class="flex-col hide-for-medium flex-right">
+                            <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+                            </ul>
+                        </div>
+
+                        <div class="flex-col show-for-medium flex-grow">
+                            <ul class="nav nav-center nav-small mobile-nav  nav-divided">
+                                <li class="html custom html_topbar_left">
+                                    <div class="follow-icon-top">
+                                        <a href="https://zalo.me/3632863015225706553">
+                                            <img src="http://phamnguyenfoods.com/wp-content/uploads/2022/07/asset-6-1.png">
+                                        </a>
+                                        <a class="icon-i" href="https://www.facebook.com/trungbac.nguyen.98/?locale=vi_VN">
+                                            <i class="bi-facebook"></i>
+                                        </a>
+                                        <a class="icon-i" href="tel:02837657979">
+                                            <i class="icon-phone"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="header-block">
+                                    <div class="header-block-block-1">
+                                        <ul class="sidebar-wrapper ul-reset menu-languas">
+                                            <div id="nav_menu-2" class="col pb-0 widget widget_nav_menu">
+                                                <div class="menu-menu-ngon-ngu-container">
+                                                    <ul id="menu-menu-ngon-ngu" class="menu">
+                                                        <li id="menu-item-802-en" class="lang-item lang-item-25 lang-item-en lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-802-en"><a href="!#" hreflang="en-GB" lang="en-GB"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg==" alt="English" width="16" height="11" style="width: 16px; height: 11px;"></a></li>
+                                                        <li id="menu-item-802-vi" class="lang-item lang-item-28 lang-item-vi current-lang menu-item menu-item-type-custom menu-item-object-custom menu-item-802-vi"><a href="!#" hreflang="vi" lang="vi"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAATlBMVEX+AAD2AADvAQH/eXn+cXL9amr8YmL9Wlr8UlL7TkvoAAD8d0f6Pz/3ODf2Ly/0KSf6R0f6wTv60T31IBz6+jr4+Cv3QybzEhL4bizhAADgATv8AAAAW0lEQVR4AQXBgU3DQBRAMb+7jwKVUPefkQEQTYJqByBENpKUGoZslXoN5LPONH8G9WWZ7pGlOn6XZmaGRce1J/seei4dl+7dPWDqkk7+58e3+igdlySPcYbwBG+lPhCjrtt9EgAAAABJRU5ErkJggg==" alt="Tiếng Việt" width="16" height="11" style="width: 16px; height: 11px;"></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="masthead" class="header-main show-logo-center has-sticky-logo z-0">
+                    <div class="header-inner flex-row container logo-center medium-logo-center" role="navigation">
+
+                        <!-- Logo -->
+                        <div id="logo" class="flex-col logo">
+                            <!-- Header logo -->
+                            <a href="/" title="Biscafun - Hơn cả niềm vui" rel="home" style="cursor: default;">
+                                <img width="200" height="90" src="./logo.png" class="header_logo header-logo" alt="Biscafun">
+                            </a>
+                        </div>
+                        <NavMenu cartCounter="cartCounter"/>
+                    </div>
+                    <div class="container">
+                        <div class="top-divider full-width"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div>
+            @Body
+
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-4 mb-3">
+                    <h5>Tổng quan về Biscafun</h5>
+                    <p>
+                        Là đơn vị trực thuộc Công ty Cổ phần Đường Quảng Ngãi. Thành lập năm 1994 với quy mô là phân xưởng bánh kẹo; phân xưởng đi vào hoạt động với hai dây chuyền sản xuất kẹo và dây chuyền sản xuất Bánh quy theo công nghệ hiện đại của Đài Loan và Đan Mạch. Hiện nay các sản phẩm Biscafun đã có mặt tại 63 tỉnh thành của Việt Nam với hơn 100 nhà phân phối, đội ngũ bán hàng hơn 350 người và hơn 50.000 điểm bán.
+                    </p>
+                </div>
+                <div class="col-6 col-md-4 mb-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-body-secondary">Địa chỉ</a>
+                            <p>Nhà Máy Bánh Kẹo Biscafun, Lô 23, Khu công nghiệp Quảng Phú, Thành phố Quảng Ngãi</p>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <p>Số điện thoại</p>
+                            <a href="tel:0376488142">0376488142</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <p>Email</p>
+                            <a href="mailto:biscafun@gmail.com.vn">biscafun@gmail.com.vn</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4 mb-3">
+                    <h5>Hỗ trợ khách hàng</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tìm kiếm</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Giới thiệu</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chính sách đổi trả</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chính sách bảo mật</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Điều khoản dịch vụ</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</CascadingValue>

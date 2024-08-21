@@ -1,0 +1,69 @@
+{
+  "lefts": [
+    {
+      "name": "Trang chủ",
+      "link": "",
+      "items": []
+    },
+    {
+      "name": "Về chúng tôi",
+      "link": "!#",
+      "items": []
+    },
+    {
+      "name": "Sản phẩm",
+      "link": "/product/",
+      "items": [
+        {
+          "name": "Tất cả sản phẩm",
+          "link": "/product/All"
+        },
+        {
+          "name": "Bánh mềm phủ",
+          "link": "/product/banhpie"
+        },
+        {
+          "name": "Bánh quy",
+          "link": "/product/banhqui"
+        },
+        {
+          "name": "Kẹo mềm",
+          "link": "/product/keo"
+        },
+        {
+          "name": "Kẹo cứng",
+          "link": "/product/keo"
+        },
+        {
+          "name": "Bánh kem xốp",
+          "link": "/product/banhxop"
+        },
+        {
+          "name": "Bánh bông lan",
+          "link": "!#"
+        }
+      ]
+    }
+  ],
+  "rights": [
+    {
+      "name": "Tin tức",
+      "link": "!#",
+      "items": []
+    },
+    {
+      "name": "Liên hệ",
+      "link": "!#",
+      "items": [
+        {
+          "name": "Trung Bac",
+          "link": "!#"
+        },
+        {
+          "name": "HOT LINE!!!",
+          "link": "!#"
+        }
+      ]
+    }
+  ]
+}

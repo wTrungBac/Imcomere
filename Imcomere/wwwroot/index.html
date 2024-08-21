@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bisafun-Hơn cả niềm vui</title>
+    <base href="/" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/wp-content/themes/flatsome/assets/css/flatsome-shop.css" rel="stylesheet" />
+    <link href="assets/wp-content/themes/flatsome/assets/css/flatsome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css?3" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link href="Imcomere.styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css?3" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <div class="loading">
+            <img src="assets/img/wait-icon.gif" alt="" />
+        </div>
+    </div>
+    <div class="contact-form">
+
+        <div class="messger-ring-wrap">
+            <div class="messger-ring">
+                <div class="messger-ring-circle"></div>
+                <div class="messger-ring-circle-fill"></div>
+                <div class="messger-ring-img-circle">
+                    <a href="https://www.facebook.com/bkbiscafunqn" class="pps-btn-img">
+                        <img src="https://biscafun.com/images/face.png" alt="Gọi điện thoại" width="50">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotline-phone-ring-wrap">
+            <div class="hotline-phone-ring">
+                <div class="hotline-phone-ring-circle"></div>
+                <div class="hotline-phone-ring-circle-fill"></div>
+                <div class="hotline-phone-ring-img-circle">
+                    <a href="tel:02837657979" class="pps-btn-img">
+                        <img src="https://biscafun.com/images/icon_hotline.png" alt="Gọi điện thoại" width="50">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/wp-content/themes/flatsome/assets/js/flatsome.js"></script>
+    <script src="assets/wp-content/themes/flatsome/assets/js/woocommerce.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">
+        window.onscroll = function () {
+            var header = document.getElementById("header");
+            var masthead = document.getElementById("masthead");
+            var top_bar = document.getElementById("top-bar");
+
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                if (header.classList.contains("position-static")) {
+                    header.classList.remove("position-static");
+                }
+
+                if (!header.classList.contains("z-0")) {
+                    header.classList.add("z-0");
+                }
+                if (masthead.classList.contains("z-0")) {
+                    masthead.classList.remove("z-0");
+                    console.log("masthead.classList.remove(z-0);");
+                }
+
+                if (!top_bar.classList.contains("d-none")) {
+                    top_bar.classList.add("d-none");
+                }
+            } else {
+                if (!header.classList.contains("position-static")) {
+                    header.classList.add("position-static");
+                }
+                if (header.classList.contains("z-0")) {
+                    header.classList.remove("z-0");
+                }
+                if (!masthead.classList.contains("z-0")) {
+                    masthead.classList.add("z-0");
+                    console.log("masthead.classList.add(z-0);");
+                }
+
+                if (top_bar.classList.contains("d-none")) {
+                    top_bar.classList.remove("d-none");
+                }
+            }
+
+        };
+
+    //Aos library
+        AOS.init();
+    </script>
+</body>
+
+</html>

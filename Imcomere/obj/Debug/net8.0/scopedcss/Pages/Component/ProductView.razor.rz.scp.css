@@ -1,0 +1,106 @@
+#viewList[b-jff9zmh7vs] {
+    background-color: #eee;
+    max-height: 421px;
+    overflow-y: auto;
+}
+
+#viewList table[b-jff9zmh7vs] {
+    margin: 0 auto;
+}
+
+#viewList tr[b-jff9zmh7vs] {
+    background-color: #fff;
+}
+
+#viewList tr a[b-jff9zmh7vs] {
+    color: var(--bs-primary-red);
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#viewList tr td a:hover[b-jff9zmh7vs] {
+    color: var(--bs-primary-red);
+    transition: 0.3s;
+}
+
+#viewList th[b-jff9zmh7vs] {
+    background-color: var(--bs-primary-red);
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 5px;
+    font-size: 14px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+#viewList td[b-jff9zmh7vs] {
+    color: var(--bs-primary);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    align-content: center;
+    margin: 0 auto;
+}
+
+#viewList td img[b-jff9zmh7vs] {
+    width: auto;
+    height: 60px;
+    border: none;
+}
+
+#viewList td input[b-jff9zmh7vs] {
+    width: 45px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid var(--bs-primary);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--bs-primary);
+    margin: 0 auto;
+}
+
+#viewList td .product-price[b-jff9zmh7vs] {
+    color: var(--bs-primary-red)
+}
+
+#viewList table tr .soluong[b-jff9zmh7vs] {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#viewList table tr .soluong .btn[b-jff9zmh7vs] {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: var(--bs-primary);
+    border: none;
+}
+
+#viewList table tr .soluong input[b-jff9zmh7vs] {
+    width: 40px;
+    height: 40px;
+}
+
+.button-cart .btn[b-jff9zmh7vs] {
+    background-color: var(--bs-primary);
+    border: none
+}
+
+.button-cart .btn:hover[b-jff9zmh7vs] {
+    background-color: var(--bs-primary);
+}
+
+.button-cart[b-jff9zmh7vs] {
+    margin-top: 15px;
+}
+
+#viewList table tr .soluong input[type='number'][b-jff9zmh7vs] {
+    -moz-appearance: textfield;
+}
+
+#viewList table tr .soluong input[b-jff9zmh7vs]::-webkit-outer-spin-button,
+#viewList table tr .soluong input[b-jff9zmh7vs]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

@@ -1,0 +1,16 @@
+﻿.confirmed {
+    width: 1200px;
+    height: 300px;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .confirmed .bi-check2-circle {
+        font-size: 150px;
+        color: var(--bs-primary);
+    }
+
+    .confirmed #textConfirm {
+        color: var(--bs-primary-dark-red);
+    }

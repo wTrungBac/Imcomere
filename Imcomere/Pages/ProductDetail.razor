@@ -1,0 +1,91 @@
+﻿@using Imcomere.Pages.Component
+@inject HttpClient Http
+@inject Cart cart
+@page "/ProductDetail/{id}"
+@layout MainLayout
+@if (product != null)
+{
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-auto">
+                <div class="row">
+                    <img src="assets/img/product-banner.png" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <img src="@product.detailImage" width="100%" />
+            </div>
+            <div class="col-6">
+                <h1>@product.name</h1>
+                <p>@product.category</p>
+                <p>Quy cách: @(product.netWeight)g/hộp <em>&times;</em> @product.netQuantity hộp/thùng</p>
+                <select @onchange="args => dvt = args.Value?.ToString()" value="@dvt">
+                    <option value="HO">Hộp</option>
+                    <option value="TH">Thùng</option>
+                </select>
+                <p class="product-price">@(dvt == "TH" ? $"{product.price * currentCount * product.netQuantity:#,###}" : $"{currentCount * product.price:#,###}")đ</p>
+                <button class="btn btn-primary @(currentCount < 2 ? "disabled" : "")" @onclick="() => IncrementCount(-1)">-</button>
+                <input type="text" value="@currentCount" role="status" />
+                <button class="btn btn-primary" @onclick="() => IncrementCount(1)">+</button>
+                <a class="btn btn-success">Mua ngay</a>
+                <a class="btn btn-success" @onclick="addToCart">Thêm giỏ hàng</a>
+                <h2>Chi tiết sản phẩm</h2>
+                <p>@product.detailDescription</p>
+            </div>
+        </div>
+        <div class="product-desc">
+            <div>
+                <h3>Mô tả sản phẩm</h3>
+                <img src="/assets/img/BISCAFUN Chia sẻ niềm vui.gif" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="best-seller">
+            <p>Sản phẩm bán chạy</p>
+        </div>
+    </div>
+    <Card />
+} else if (!isLoading)
+{
+    <div class="alert alert-info">méo tìm thấy sản phẩm</div>
+}
+
+
+@code {
+    [CascadingParameter] public MainLayout mainLayout { get; set; }
+
+    [Parameter]
+    public required string id { get; set; }
+    public int currentCount = 1;
+    public string? dvt { get; set; } = "HO";
+    private bool isLoading { get; set; }
+    public void IncrementCount(int increment)
+    {
+        if (currentCount + increment > 0) currentCount += increment;
+    }
+    private Product[]? products;
+    private Product? product;
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true; 
+        products = await Http.GetFromJsonAsync<Product[]>("data/product.json");
+    }
+
+    protected override void OnParametersSet()
+    {
+        product = products?.FirstOrDefault(pr => pr.id == id);
+        isLoading = false;
+    }
+
+    private async Task addToCart()
+    {
+        await cart.add(product!);
+        var cartItems = await cart.getCartItems();
+
+        mainLayout?.setCartCounter(cartItems?.Sum(item => item.quantity)??0);
+    }
+}

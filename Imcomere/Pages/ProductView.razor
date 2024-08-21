@@ -1,0 +1,56 @@
+﻿@using Imcomere.Pages.Component
+@inject HttpClient Http
+@inject Cart cart
+@layout MainLayout
+
+
+<div id="viewList">
+    <table width="100%" border="0" class="table table-responsive-lg table-bordered border-light m-auto">
+        <thead>
+        <tr>
+            <th width="100" style="text-align: center;">Hình ảnh</th>
+            <th>Tên sản phẩm</th>
+            <th width="15%">Số lượng</th>
+            <th width="15%">Đơn giá</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var cartItem in cartItems)
+        {
+            <tr id="@cartItem.product.id">
+                <td>
+                    <img src="@cartItem.product.detailImage" width="100%" />
+                </td>
+                <td>
+                    <a style="cursor: text;">@cartItem.product.name</a>
+                </td>
+                <td class="soluong">
+                    <input name value="@cartItem.quantity" type="text" min="1" role="status" @onchange="args => onChangeQuantity(cartItem, Convert.ToInt32(args.Value))" />
+                </td>
+                <td>
+                    <p class="product-price">@($"{cartItem.amount:#,###}")đ</p>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+<div class="button-cart">
+    <a href="/ProductCart" class="btn btn-success" >Sửa đơn hàng</a>
+</div>
+
+
+@code {
+    private List<Cart.CartItem> cartItems = new();
+    protected override async Task OnInitializedAsync()
+    {
+        cartItems = await cart.getCartItems();
+    }
+    private async Task onChangeQuantity(Cart.CartItem cartItem, int quantity)
+    {
+        await cart.changeQuantity(cartItem.product, quantity);
+        cartItems = await cart.getCartItems();
+        // mainLayout.setCartCounter(cartItems.Sum(item => item.quantity));
+
+    }
+}

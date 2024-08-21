@@ -1,0 +1,56 @@
+﻿@using Newtonsoft.Json
+@inject HttpClient Http
+@if (slider != null)
+{
+    <div id="@slider.id" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            @for(var i = 0; i < slider.items.Count; i++)
+            {
+                <li data-bs-target="#@slider.id" data-bs-slide-to="@i" class="@(slider.items[i].isActive?"active":"")" aria-curent="@(slider.items[i].isActive?"true":"")"></li>
+            }
+        </ol>
+        <div class="carousel-inner">
+            @foreach (var item in slider.items)
+            {
+                <div class="carousel-item @(item.isActive?"active":"")">
+                    <a href="@item.href"><img src="@item.imageSrc" alt="@item.title" /></a>
+                    <div id="@item.id" class="carousel-caption">
+                        <h1>@item.title</h1>
+                        <p>
+                            @if(item.isShowFullDescription)
+                            {
+                                @item.description
+                            } else
+                            {
+                                @item.shortDescription<span>...</span>
+                            }
+                            &nbsp;<a class="show-more" style="cursor: pointer; " @onclick="() => showMore(item)">@(item.isShowFullDescription ? "Ẩn bớt" : "Xem thêm")</a>
+                        </p>
+                    </div>
+                </div>
+            }
+        </div>
+        <a class="carousel-control-prev" href="#@slider.id" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#@slider.id" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+}
+
+
+@code {
+    private Slider? slider { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        slider = await Http.GetFromJsonAsync<Slider>("data/slide.json?2");
+        slider!.items[0].isActive = true;
+    }
+
+    private void showMore(Slider.Item item)
+    {
+        item.isShowFullDescription = !item.isShowFullDescription;
+    }
+}
